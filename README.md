@@ -8,9 +8,7 @@
 pip install -r requirements.txt
 ```
 
-## 运行
-
-### 后端
+# 后端
 
 ```
 cd .\backend\
@@ -19,7 +17,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-### 前端
+# 前端
 
 ```
 cd .\frontend\

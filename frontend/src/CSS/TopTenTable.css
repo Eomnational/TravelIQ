@@ -1,0 +1,40 @@
+.ranking-card {
+  margin: 20px;
+}
+
+.ranking-header-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table-container {
+  overflow: hidden; /* 确保悬停时不出现滚动条 */
+  max-height: 600px; /* 设置最大高度 */
+}
+
+.table {
+  min-width: 800px; /* 确保表格宽度足够 */
+}
+
+.ranking-item {
+  transition: transform 0.2s; /* 添加平滑过渡效果 */
+}
+
+.ranking-item:hover {
+  transform: scale(0.98); /* 悬停时轻微变小 */
+}
+
+.ranking-avatar {
+  width: 100px; /* 设置长方形图片的宽度 */
+  height: 60px; /* 设置长方形图片的高度 */
+  object-fit: cover; /* 确保图片按比例缩放并不变形 */
+}
+
+.ranking-score {
+  background: linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(255,255,255,1) 100%);
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+

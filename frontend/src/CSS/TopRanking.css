@@ -1,0 +1,52 @@
+.ranking-card {
+  margin: 20px;
+}
+
+.ranking-header-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.table-container {
+  overflow: hidden; /* 确保悬停时不出现滚动条 */
+  max-height: 600px; /* 设置最大高度 */
+}
+
+.table {
+  min-width: 800px; /* 确保表格宽度足够 */
+}
+.ranking-card {
+  padding: 20px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.destination {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.activity {
+  padding: 20px;
+}
+
+.ranking-item {
+  transition: transform 0.2s; /* 添加平滑过渡效果 */
+}
+
+.ranking-item:hover {
+  transform: scale(0.98); /* 悬停时轻微变小 */
+}
+
+.ranking-avatar1 {
+  width: 50px; /* 圆形图片的宽度 */
+  height: 50px; /* 圆形图片的高度 */
+  border-radius: 50%; /* 圆形边框 */
+  object-fit: cover; /* 确保图片不变形 */
+}

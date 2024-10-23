@@ -1,0 +1,70 @@
+.WordCloud {
+    margin: 4rem 6rem;
+}
+
+.WordCloud h1 {
+    font-size: 3rem;
+}
+.first-woc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4.5rem;
+   
+}
+.first-woc-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+.image {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1p 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+
+@media  screen and (max-width:850px) {
+    .WordCloud {
+        margin: 4rem 2rem;
+    }
+
+    .first-woc {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+
+    .first-woc-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4.5rem;
+    }
+
+    .des-text {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+
+    .image img {
+        height: 250px;
+    }
+
+
+}

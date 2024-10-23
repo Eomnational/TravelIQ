@@ -1,0 +1,58 @@
+.destination {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  width: 80%; /* 设置宽度 */
+  max-width: 600px; /* 最大宽度 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px; /* 圆角边框 */
+  background-color: #fff; /* 背景颜色 */
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border: 2px solid #1976d2; /* 边框样式 */
+  border-radius: 50%; /* 圆形头像 */
+}
+
+.profile-username {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile-table {
+  margin-bottom: 20px;
+  width: 100%; /* 确保表格宽度适应容器 */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* 按钮之间的间距 */
+  width: 100%; /* 使按钮容器占满宽度 */
+}
+
+.profile-button {
+  width: 100%; /* 按钮占满容器宽度 */
+  padding: 10px;
+  font-size: 16px; /* 按钮字体大小 */
+  color: #1976d2; /* 按钮文字颜色 */
+  border: 2px solid  #1976d2; /* 边框颜色 */
+  border-radius: 4px; /* 按钮圆角 */
+}
+
+.profile-button:hover {
+  background-color: #1976d2; /* 鼠标悬停时的背景颜色 */
+  color: white; /* 鼠标悬停时的文字颜色 */
+}
+
+

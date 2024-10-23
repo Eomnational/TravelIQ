@@ -1,0 +1,42 @@
+.profile-container {
+    display: flex; /* 使用弹性布局 */
+    flex-direction: column; /* 垂直排列子元素 */
+    align-items: center; /* 水平居中对齐 */
+    padding: 30px; /* 内边距 */
+    /* border: 1px solid #ccc; 边框颜色和样式 */
+    border-radius: 8px; /* 圆角边框 */
+    background-color: #fff; /* 背景颜色 */
+    max-width: 600px; /* 最大宽度 */
+    margin: auto; /* 垂直居中 */
+  }
+  
+  /* 头像的样式 */
+  .profile-avatar {
+    width: 100px; /* 头像宽度 */
+    height: 100px; /* 头像高度 */
+    border-radius: 50%; /* 圆形头像 */
+    margin-bottom: 20px; /* 头像与下面元素的间距 */
+  }
+  
+  /* 用户名的样式 */
+  .profile-username {
+    font-weight: bold; /* 加粗字体 */
+  }
+  
+  /* 按钮容器的样式 */
+  .button-container {
+    margin-top: 30px; /* 按钮与上面元素的间距 */
+  }
+  
+  /* 按钮的样式 */
+  .profile-button {
+    margin: 10px; /* 按钮之间的间距 */
+    color: #000; /* 按钮字体颜色 */
+    border-color: #000; /* 按钮边框颜色 */
+  }
+  
+  /* 按钮悬停时的样式 */
+  .profile-button:hover {
+    background-color: #f0f0f0; /* 悬停时背景颜色 */
+  }
+  

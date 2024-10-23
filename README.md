@@ -5,5 +5,30 @@
 # 项目启动
 
 ```
-install requirements.txt
+pip install -r requirements.txt
 ```
+
+# 后端
+
+```
+cd .\backend\
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
+
+# 前端
+
+```
+cd .\frontend\
+npm start
+```
+
+# 项目功能
+
+- 用户登录、注册
+- 用户
+- 点评
+- 统计
+- 推荐
+- 词云
